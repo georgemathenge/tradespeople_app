@@ -504,7 +504,7 @@ export default function Home() {
             DerAuftragsRetter
           </div>
           <p className="text-xs">
-            © 2025 DerAuftragsRetter. Alle Rechte vorbehalten.
+            © 2026 DerAuftragsRetter. Alle Rechte vorbehalten.
           </p>
           <nav className="flex gap-6 text-xs">
             <Link href="#" className="hover:text-white transition-colors">
