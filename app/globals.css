@@ -12,6 +12,7 @@
   --color-brand-bg: #f7faf7;
   
   /* Connecting your Next.js fonts to Tailwind */
+  --font-inter: var(--font-inter);
   --font-syne: var(--font-syne);
   --font-dm-sans: var(--font-dm-sans);
 }
@@ -23,7 +24,7 @@
   }
   
   h1, h2, h3, h4 {
-    @apply font-syne;
+    @apply font-inter;
   }
 }
 

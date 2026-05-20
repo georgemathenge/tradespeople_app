@@ -28,7 +28,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md  h-20 flex items-center justify-between px-[5%]">
         <Link
           href="#"
-          className="flex items-center gap-2.5 font-syne font-bold text-lg text-brand-dark"
+          className="flex items-center gap-2.5 font-inter font-bold text-lg text-brand-dark"
         >
           <div className="w-9 h-9 bg-brand-green rounded-lg flex items-center justify-center text-white">
             📞
@@ -77,11 +77,11 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="pt-32 md:pt-40 pb-20 px-[5%] max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-stretch">
         <div className="fade-in opacity-0 translate-y-6 transition-all duration-700">
-          <div className="inline-flex items-center gap-2 bg-brand-green-pale text-brand-green px-3.5 py-1.5 rounded-full text-xs font-bold font-syne mb-6">
+          <div className="inline-flex items-center gap-2 bg-brand-green-pale text-brand-green px-3.5 py-1.5 rounded-full text-xs font-bold font-inter mb-6">
             <span className="w-2 h-2 bg-brand-green rounded-full animate-pulse"></span>
             FÜR HANDWERKSBETRIEBE
           </div>
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.15] mb-5 font-syne text-brand-dark">
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.15] mb-5 font- text-brand-dark">
             Jeder verpasste Anruf ist ein{' '}
             <span className="text-brand-green">verlorener Auftrag.</span>
           </h1>
@@ -141,7 +141,7 @@ export default function Home() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
               </div>
-              <span className="text-[#111810] text-xs font-bold font-syne uppercase tracking-tight">
+              <span className="text-[#111810] text-xs font-bold font-inter uppercase tracking-tight">
                 Jeder Anruf dokumentiert
               </span>
             </div>
@@ -165,7 +165,7 @@ export default function Home() {
                   <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z" />
                 </svg>
               </div>
-              <span className="text-xs font-bold font-syne uppercase tracking-tight">
+              <span className="text-xs font-bold font-inter uppercase tracking-tight">
                 Sofortige WhatsApp-Info
               </span>
             </div>
@@ -189,7 +189,7 @@ export default function Home() {
                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
                 </svg>
               </div>
-              <span className="text-[#111810] text-xs font-bold font-syne uppercase tracking-tight">
+              <span className="text-[#111810] text-xs font-bold font-inter uppercase tracking-tight">
                 Für Handwerker entwickelt
               </span>
             </div>
@@ -214,7 +214,7 @@ export default function Home() {
                   <polyline points="12 6 12 12 16 14" />
                 </svg>
               </div>
-              <span className="text-[#111810] text-xs font-bold font-syne uppercase tracking-tight">
+              <span className="text-[#111810] text-xs font-bold font-inter uppercase tracking-tight">
                 Erreichbar wenn Sie arbeiten
               </span>
             </div>
@@ -224,7 +224,7 @@ export default function Home() {
 
       {/* PROBLEM STRIP */}
       <div className="bg-brand-dark text-white py-16 md:py-20 px-[5%] text-center">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4 font-syne">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4 font-inter">
           Sie sind auf der Baustelle. Ihr Telefon klingelt. Sie können nicht
           rangehen.
         </h2>
@@ -240,10 +240,10 @@ export default function Home() {
         id="wie-es-funktioniert"
       >
         <div className="fade-in opacity-0 translate-y-6 transition-all duration-700 mb-16">
-          <div className="text-brand-green font-syne text-xs font-bold tracking-widest uppercase mb-3">
+          <div className="text-brand-green font-inter text-xs font-bold tracking-widest uppercase mb-3">
             So funktioniert es
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-syne mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-inter mb-4">
             In 3 einfachen Schritten zu keinem verlorenen Auftrag mehr
           </h2>
           <p className="text-brand-gray text-lg max-w-xl leading-relaxed">
@@ -278,10 +278,10 @@ export default function Home() {
               className="relative z-10 fade-in opacity-0 translate-y-6 transition-all duration-700"
               style={{ transitionDelay: `${idx * 150}ms` }}
             >
-              <div className="w-14 h-14 bg-brand-green text-white rounded-full flex items-center justify-center font-syne font-bold text-xl mb-6 shadow-lg shadow-brand-green/20">
+              <div className="w-14 h-14 bg-brand-green text-white rounded-full flex items-center justify-center font-inter font-bold text-xl mb-6 shadow-lg shadow-brand-green/20">
                 {item.step}
               </div>
-              <h3 className="text-xl font-bold text-brand-dark mb-3 font-syne">
+              <h3 className="text-xl font-bold text-brand-dark mb-3 font-inter">
                 {item.title}
               </h3>
               <p className="text-brand-gray leading-relaxed text-sm md:text-base">
@@ -293,67 +293,88 @@ export default function Home() {
       </section>
 
       {/* BENEFITS */}
-      <section
-        className="py-24 px-[5%] max-w-7xl mx-auto border-t border-brand-border"
-        id="vorteile"
-      >
-        <div className="fade-in opacity-0 translate-y-6 transition-all duration-700 mb-12">
-          <div className="text-brand-green font-syne text-xs font-bold tracking-widest uppercase mb-3">
-            Ihre Vorteile
-          </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-syne mb-4">
-            Immer erreichbar. Ohne immer verfügbar zu sein.
-          </h2>
-        </div>
+    <section
+  className="py-24 px-[5%] max-w-7xl mx-auto border-t border-brand-border"
+  id="vorteile"
+>
+  {/* Header remains at the top */}
+  <div className="fade-in opacity-0 translate-y-6 transition-all duration-700 mb-12">
+    <div className="text-brand-green font-inter text-xs font-bold tracking-widest uppercase mb-3">
+      Ihre Vorteile
+    </div>
+    <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-inter mb-4">
+      Immer erreichbar. Ohne immer verfügbar zu sein.
+    </h2>
+  </div>
 
-        <div className="grid md:grid-cols-2 gap-6 fade-in opacity-0 translate-y-6 transition-all duration-700 delay-200">
-          {[
-            {
-              icon: '📲',
-              title: 'Direkt per WhatsApp',
-              desc: 'Alle Kundeninformationen landen strukturiert und übersichtlich direkt in Ihrer WhatsApp. Kein Zettel, kein Chaos.',
-            },
-            {
-              icon: '🕐',
-              title: 'Immer erreichbar',
-              desc: 'Ihr Assistent nimmt Anrufe entgegen – egal ob Sie auf der Baustelle, beim Kunden oder nach Feierabend sind.',
-            },
-            {
-              icon: '💼',
-              title: 'Mehr Aufträge gewinnen',
-              desc: 'Kein verpasster Anruf bedeutet keine verlorenen Aufträge. Sie rufen zurück, wann es Ihnen passt.',
-            },
-            {
-              icon: '⚙️',
-              title: 'Kein technisches Wissen nötig',
-              desc: 'Einfach anmelden, fertig. DerAuftragsRetter läuft im Hintergrund – ohne kompliziertes Setup.',
-            },
-          ].map((benefit, idx) => (
-            <div
-              key={idx}
-              className="bg-brand-bg border border-brand-border p-8 rounded-2xl hover:border-brand-green hover:shadow-xl hover:-translate-y-1 transition-all"
-            >
-              <div className="w-12 h-12 bg-brand-green-pale rounded-xl flex items-center justify-center text-2xl mb-5">
-                {benefit.icon}
-              </div>
-              <h3 className="text-lg font-bold text-brand-dark mb-2 font-syne">
-                {benefit.title}
-              </h3>
-              <p className="text-brand-gray text-sm md:text-base leading-relaxed">
-                {benefit.desc}
-              </p>
-            </div>
-          ))}
+  {/* NEW: Grid Wrapper for Image + Benefits */}
+  <div className="grid lg:grid-cols-12 gap-12 items-center">
+    
+    {/* LEFT: The Image (Spans 5 columns) */}
+    <div className="lg:col-span-5 fade-in opacity-0 translate-y-6 transition-all duration-700 delay-100">
+      <div className="relative h-[400px] lg:h-[600px] w-full">
+        <Image
+          src="/IMG_0850.JPG" 
+          alt="Handwerker nutzt WhatsApp"
+          fill
+          sizes="(max-width: 1024px) 100vw, 40vw"
+          className="rounded-3xl shadow-2xl object-cover"
+        />
+        {/* Optional: Add a decorative element behind the image */}
+        <div className="absolute -z-10 -bottom-6 -right-6 w-64 h-64 bg-brand-green-pale rounded-full blur-3xl opacity-50"></div>
+      </div>
+    </div>
+
+    {/* RIGHT: The Benefits Grid (Spans 7 columns) */}
+    <div className="lg:col-span-7 grid sm:grid-cols-2 gap-6 fade-in opacity-0 translate-y-6 transition-all duration-700 delay-300">
+      {[
+        {
+          icon: '📲',
+          title: 'Direkt per WhatsApp',
+          desc: 'Alle Kundeninformationen landen strukturiert und übersichtlich direkt in Ihrer WhatsApp.',
+        },
+        {
+          icon: '🕐',
+          title: 'Immer erreichbar',
+          desc: 'Ihr Assistent nimmt Anrufe entgegen – egal ob Sie auf der Baustelle oder im Feierabend sind.',
+        },
+        {
+          icon: '💼',
+          title: 'Mehr Aufträge gewinnen',
+          desc: 'Kein verpasster Anruf bedeutet keine verlorenen Aufträge. Sie rufen zurück, wenn es passt.',
+        },
+        {
+          icon: '⚙️',
+          title: 'Kein technisches Wissen',
+          desc: 'Einfach anmelden, fertig. DerAuftragsRetter läuft im Hintergrund ohne Setup.',
+        },
+      ].map((benefit, idx) => (
+        <div
+          key={idx}
+          className="bg-brand-bg border border-brand-border p-6 rounded-2xl hover:border-brand-green hover:shadow-xl hover:-translate-y-1 transition-all"
+        >
+          <div className="w-10 h-10 bg-brand-green-pale rounded-xl flex items-center justify-center text-xl mb-4">
+            {benefit.icon}
+          </div>
+          <h3 className="text-md font-bold text-brand-dark mb-2 font-inter">
+            {benefit.title}
+          </h3>
+          <p className="text-brand-gray text-xs md:text-sm leading-relaxed">
+            {benefit.desc}
+          </p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* PRICING */}
       <section className="py-24 px-[5%] bg-brand-bg" id="preise">
         <div className="max-w-7xl mx-auto text-center mb-16 fade-in opacity-0 translate-y-6 transition-all duration-700">
-          <div className="text-brand-green font-syne text-xs font-bold tracking-widest uppercase mb-3">
+          <div className="text-brand-green font-inter text-xs font-bold tracking-widest uppercase mb-3">
             Pakete
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-syne mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-inter mb-4">
             Wählen Sie Ihr passendes Paket
           </h2>
           <p className="text-brand-gray max-w-xl mx-auto">
@@ -364,10 +385,10 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Basic */}
           <div className="bg-white border-2 border-brand-border p-10 rounded-3xl fade-in opacity-0 translate-y-6 transition-all duration-700">
-            <div className="text-brand-muted text-xs font-bold uppercase tracking-widest mb-2 font-syne">
+            <div className="text-brand-muted text-xs font-bold uppercase tracking-widest mb-2 font-inter">
               Basic
             </div>
-            <div className="text-4xl font-extrabold text-brand-dark font-syne mb-2">
+            <div className="text-4xl font-extrabold text-brand-dark font-inter mb-2">
               95€{' '}
               <span className="text-sm font-normal text-brand-muted">
                 / Monat
@@ -399,10 +420,10 @@ export default function Home() {
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-green text-white text-[10px] font-bold py-1 px-4 rounded-full uppercase tracking-widest">
               Beliebteste Wahl
             </div>
-            <div className="text-brand-muted text-xs font-bold uppercase tracking-widest mb-2 font-syne">
+            <div className="text-brand-muted text-xs font-bold uppercase tracking-widest mb-2 font-inter">
               Business
             </div>
-            <div className="text-4xl font-extrabold text-brand-dark font-syne mb-2">
+            <div className="text-4xl font-extrabold text-brand-dark font-inter mb-2">
               129€{' '}
               <span className="text-sm font-normal text-brand-muted">
                 / Monat
@@ -437,18 +458,21 @@ export default function Home() {
         className="py-24 px-[5%] max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center"
         id="kontakt"
       >
-        <div className="fade-in opacity-0 translate-y-6 transition-all duration-700">
-          <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
-            className="rounded-2xl shadow-lg h-100 w-full object-cover"
+        <div className="fade-in opacity-0 translate-y-6 transition-all duration-700 relative h-[500px] w-full">
+          <Image
+            src="/IMG_0849.JPG"
             alt="Vertrauen"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill
+            className="rounded-2xl shadow-lg object-cover"
+            priority
           />
         </div>
         <div className="fade-in opacity-0 translate-y-6 transition-all duration-700 delay-200">
-          <div className="text-brand-green font-syne text-xs font-bold tracking-widest uppercase mb-3">
+          <div className="text-brand-green font-inter text-xs font-bold tracking-widest uppercase mb-3">
             Vertrauen
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-syne mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-dark font-inter mb-6">
             Gemacht für Handwerker. Nicht für IT-Experten.
           </h2>
           <ul className="divide-y divide-brand-border">
@@ -475,7 +499,7 @@ export default function Home() {
       {/* FINAL CTA */}
       <section className="bg-brand-dark py-24 px-[5%] text-center" id="demo">
         <div className="max-w-3xl mx-auto fade-in opacity-0 translate-y-6 transition-all duration-700">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-white font-syne mb-6 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white font-inter mb-6 leading-tight">
             Bereit,{' '}
             <span className="text-[#5cc872]">
               keinen Auftrag mehr zu verpassen?
@@ -497,7 +521,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="bg-[#0c130d] text-brand-muted py-12 px-[5%]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="flex items-center gap-2.5 font-syne font-bold text-white">
+          <div className="flex items-center gap-2.5 font-inter font-bold text-white">
             <div className="w-8 h-8 bg-brand-green rounded flex items-center justify-center text-sm">
               📞
             </div>
